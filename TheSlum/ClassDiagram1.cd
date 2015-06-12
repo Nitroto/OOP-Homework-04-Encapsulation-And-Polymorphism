@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="TheSlum.GameEngine.Engine" Collapsed="true">
+    <Position X="16.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIyAAAAAAAAAIAAAAEFAgAAAiAAABQAAAgAAAAAAEAo=</HashCode>
+      <FileName>GameEngine\Engine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheSlum.GameObject.Characters.Character" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IQAAAAAAQAAACCAEAAgAIAAIIAAAAAAAEAAAAgAAYAA=</HashCode>
+      <FileName>GameObject\Characters\Character.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheSlum.GameObject.Characters.Healer" Collapsed="true">
+    <Position X="2.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IYAAAACAAAAAAAAAAgAAAAAAAAgAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>GameObject\Characters\Healer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TheSlum.GameObject.Characters.Mage" Collapsed="true">
+    <Position X="5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAgAAAAAAAAAAAAAAgAAAQAAAAgAAAAAACAAAQAAAAA=</HashCode>
+      <FileName>GameObject\Characters\Mage.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TheSlum.GameObject.Characters.Warrior" Collapsed="true">
+    <Position X="0.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAgAAAAAAAAAAAAAAgAAAQAAAAgAAAAAACAAAQAAAAA=</HashCode>
+      <FileName>GameObject\Characters\Warrior.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TheSlum.GameObject.GameObject" Collapsed="true">
+    <Position X="7.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObject\GameObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheSlum.GameObject.Items.Axe" Collapsed="true">
+    <Position X="11.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAAAAAAACAAAAAQAAAAA=</HashCode>
+      <FileName>GameObject\Items\Axe.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheSlum.GameObject.Items.Item" Collapsed="true">
+    <Position X="10.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAAAAAAACAAAAAQAAAAA=</HashCode>
+      <FileName>GameObject\Items\Item.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheSlum.GameObject.Items.Shield" Collapsed="true">
+    <Position X="14" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAAAAAAACAAAAAQAAAAA=</HashCode>
+      <FileName>GameObject\Items\Shield.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheSlum.GameObject.Items.Bonus.Bonus" Collapsed="true">
+    <Position X="8.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAQAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObject\Items\Bonus\Bonus.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TheSlum.GameObject.Items.Bonus.Injection" Collapsed="true">
+    <Position X="7.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAAAAAAACAAAAAQAAQAA=</HashCode>
+      <FileName>GameObject\Items\Bonus\Injection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheSlum.GameObject.Items.Bonus.Pill" Collapsed="true">
+    <Position X="9.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAAAAAAACAAAAAQBAAAA=</HashCode>
+      <FileName>GameObject\Items\Bonus\Pill.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheSlum.Program" Collapsed="true">
+    <Position X="18.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="TheSlum.Interfaces.IAttack" Collapsed="true">
+    <Position X="16.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Interfaces\IAttack.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="TheSlum.Interfaces.IHeal" Collapsed="true">
+    <Position X="18.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IHeal.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="TheSlum.Interfaces.ITimeoutable" Collapsed="true">
+    <Position X="16.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAQAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\ITimeoutable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="TheSlum.GameObject.Characters.Team" Collapsed="true">
+    <Position X="16.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObject\Characters\Team.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
